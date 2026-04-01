@@ -41,8 +41,6 @@ require (
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/Azure/go-autorest/autorest/adal v0.9.24
-	github.com/MicahParks/jwkset v0.11.0
-	github.com/MicahParks/keyfunc/v3 v3.7.0
 	github.com/ProtonMail/go-crypto v1.3.0
 	github.com/ProtonMail/gopenpgp/v3 v3.2.1
 	github.com/SAP/go-hdb v1.10.1
@@ -168,12 +166,12 @@ require (
 	github.com/hashicorp/vault-plugin-secrets-kv v0.26.2
 	github.com/hashicorp/vault-plugin-secrets-mongodbatlas v0.17.1
 	github.com/hashicorp/vault-plugin-secrets-openldap v0.18.0
-	github.com/hashicorp/vault-plugin-secrets-terraform v0.14.1
+	github.com/hashicorp/vault-plugin-secrets-terraform v0.14.2-0.20260401003424-6c2492edd44c
 	github.com/hashicorp/vault-testing-stepwise v0.3.3
-	github.com/hashicorp/vault/api v1.22.0
+	github.com/hashicorp/vault/api v1.23.0
 	github.com/hashicorp/vault/api/auth/approle v0.1.0
 	github.com/hashicorp/vault/api/auth/userpass v0.1.0
-	github.com/hashicorp/vault/sdk v0.24.0
+	github.com/hashicorp/vault/sdk v0.25.0
 	github.com/hashicorp/vault/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab
 	github.com/jackc/pgx/v4 v4.18.3
@@ -431,7 +429,7 @@ require (
 	github.com/hashicorp/go-secure-stdlib/httputil v0.1.0 // indirect
 	github.com/hashicorp/go-secure-stdlib/plugincontainer v0.4.2 // indirect
 	github.com/hashicorp/go-slug v0.16.8 // indirect
-	github.com/hashicorp/go-tfe v1.101.0 // indirect
+	github.com/hashicorp/go-tfe v1.103.0 // indirect
 	github.com/hashicorp/jsonapi v1.4.3-0.20250220162346-81a76b606f3e // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
 	github.com/hashicorp/mdns v1.0.4 // indirect
