@@ -41,8 +41,6 @@ require (
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/Azure/go-autorest/autorest/adal v0.9.24
-	github.com/MicahParks/jwkset v0.11.0
-	github.com/MicahParks/keyfunc/v3 v3.7.0
 	github.com/ProtonMail/go-crypto v1.3.0
 	github.com/ProtonMail/gopenpgp/v3 v3.2.1
 	github.com/SAP/go-hdb v1.10.1
@@ -130,7 +128,7 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.7
 	github.com/hashicorp/go-syslog v1.0.0
 	github.com/hashicorp/go-uuid v1.0.3
-	github.com/hashicorp/go-version v1.8.0
+	github.com/hashicorp/go-version v1.9.0
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/hashicorp/hcl v1.0.1-vault-7
@@ -164,16 +162,16 @@ require (
 	github.com/hashicorp/vault-plugin-secrets-azure v0.25.0
 	github.com/hashicorp/vault-plugin-secrets-gcp v0.24.0
 	github.com/hashicorp/vault-plugin-secrets-gcpkms v0.23.0
-	github.com/hashicorp/vault-plugin-secrets-kubernetes v0.13.1
+	github.com/hashicorp/vault-plugin-secrets-kubernetes v0.13.2-0.20260401005652-8edb8b97858c
 	github.com/hashicorp/vault-plugin-secrets-kv v0.26.2
 	github.com/hashicorp/vault-plugin-secrets-mongodbatlas v0.17.1
 	github.com/hashicorp/vault-plugin-secrets-openldap v0.18.0
 	github.com/hashicorp/vault-plugin-secrets-terraform v0.14.1
 	github.com/hashicorp/vault-testing-stepwise v0.3.3
-	github.com/hashicorp/vault/api v1.22.0
+	github.com/hashicorp/vault/api v1.23.0
 	github.com/hashicorp/vault/api/auth/approle v0.1.0
 	github.com/hashicorp/vault/api/auth/userpass v0.1.0
-	github.com/hashicorp/vault/sdk v0.24.0
+	github.com/hashicorp/vault/sdk v0.25.0
 	github.com/hashicorp/vault/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab
 	github.com/jackc/pgx/v4 v4.18.3
@@ -388,7 +386,7 @@ require (
 	github.com/go-asn1-ber/asn1-ber v1.5.8-0.20250403174932-29230038a667 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.6.2 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.3 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
 	github.com/go-ldap/ldif v0.0.0-20250910174327-aa3bc3095c92 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
