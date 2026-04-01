@@ -41,8 +41,6 @@ require (
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/Azure/go-autorest/autorest/adal v0.9.24
-	github.com/MicahParks/jwkset v0.11.0
-	github.com/MicahParks/keyfunc/v3 v3.7.0
 	github.com/ProtonMail/go-crypto v1.3.0
 	github.com/ProtonMail/gopenpgp/v3 v3.2.1
 	github.com/SAP/go-hdb v1.10.1
@@ -71,7 +69,7 @@ require (
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-errors/errors v1.5.1
 	github.com/go-git/go-git/v5 v5.14.0
-	github.com/go-jose/go-jose/v3 v3.0.4
+	github.com/go-jose/go-jose/v3 v3.0.5
 	github.com/go-ldap/ldap/v3 v3.4.13
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/go-test/deep v1.1.1
@@ -149,7 +147,7 @@ require (
 	github.com/hashicorp/vault-plugin-auth-azure v0.24.0
 	github.com/hashicorp/vault-plugin-auth-cf v0.23.0
 	github.com/hashicorp/vault-plugin-auth-gcp v0.23.1
-	github.com/hashicorp/vault-plugin-auth-jwt v0.26.1
+	github.com/hashicorp/vault-plugin-auth-jwt v0.26.2-0.20260401002039-6db770dfc631
 	github.com/hashicorp/vault-plugin-auth-kerberos v0.17.1
 	github.com/hashicorp/vault-plugin-auth-kubernetes v0.24.1
 	github.com/hashicorp/vault-plugin-auth-oci v0.21.1
@@ -170,10 +168,10 @@ require (
 	github.com/hashicorp/vault-plugin-secrets-openldap v0.18.0
 	github.com/hashicorp/vault-plugin-secrets-terraform v0.14.1
 	github.com/hashicorp/vault-testing-stepwise v0.3.3
-	github.com/hashicorp/vault/api v1.22.0
+	github.com/hashicorp/vault/api v1.23.0
 	github.com/hashicorp/vault/api/auth/approle v0.1.0
 	github.com/hashicorp/vault/api/auth/userpass v0.1.0
-	github.com/hashicorp/vault/sdk v0.24.0
+	github.com/hashicorp/vault/sdk v0.25.0
 	github.com/hashicorp/vault/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab
 	github.com/jackc/pgx/v4 v4.18.3
@@ -222,9 +220,9 @@ require (
 	go.etcd.io/etcd/client/v3 v3.6.0
 	go.mongodb.org/atlas v0.38.0
 	go.mongodb.org/mongo-driver v1.17.9
-	go.opentelemetry.io/otel v1.40.0
-	go.opentelemetry.io/otel/sdk v1.40.0
-	go.opentelemetry.io/otel/trace v1.40.0
+	go.opentelemetry.io/otel v1.42.0
+	go.opentelemetry.io/otel/sdk v1.42.0
+	go.opentelemetry.io/otel/trace v1.42.0
 	go.uber.org/atomic v1.11.0
 	golang.org/x/crypto v0.49.0
 	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546
@@ -236,7 +234,7 @@ require (
 	golang.org/x/text v0.35.0
 	golang.org/x/time v0.15.0
 	golang.org/x/tools v0.42.0
-	google.golang.org/api v0.272.0
+	google.golang.org/api v0.273.1
 	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/ory-am/dockertest.v3 v3.3.4
@@ -418,7 +416,7 @@ require (
 	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.14 // indirect
-	github.com/googleapis/gax-go/v2 v2.18.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.19.0 // indirect
 	github.com/gophercloud/gophercloud v0.1.0 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed // indirect
@@ -560,15 +558,15 @@ require (
 	go.opentelemetry.io/contrib/detectors/gcp v1.39.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.62.0 // indirect
-	go.opentelemetry.io/otel/metric v1.40.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel/metric v1.42.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.42.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.1 // indirect
 	golang.org/x/mod v0.34.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/genproto v0.0.0-20260319201613-d00831a3d3e7 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260316172706-e463d84ca32d // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect; indirect\
+	google.golang.org/genproto/googleapis/api v0.0.0-20260316180232-0b37fe3546d5 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260319201613-d00831a3d3e7 // indirect; indirect\
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
